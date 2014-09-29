@@ -3,7 +3,7 @@
 
 #container{
     width: 600px;
-    height: 600px;
+    height: 640px;
     margin: 0 auto;
     background-color: #eae7d2;
 }
@@ -11,6 +11,65 @@
 #topbar{
     width: 600px;
     height: 220px;
+    background-color: #51473d;
     background-image: url(pics/coffey.jpg);
+    background-size: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+#content{
+    width: 600px;
+    height: 450px;
+}
+
+#maincontent{
+    width: 360px;
+    height: 400px;
+    float: left;
+}
+
+#subcontent{
+    width: 240px;
+    height: 400px;
+    float: right;
+}
+
+#bottomcontent{
+    width: 600px;
+    height: 50px;
+    clear: both;
+}
+
+#menu{
+    width: 600px;
+    height: 40px;
+    background-color: #51473d ;
+}
+#menu ul{
+    margin: 0;
+    padding: 5px 10px 0;
+    list-style: none;
+}
+
+#menu li{
+    float: left;
+    background-color: #797066;
+    margin: 0;
+    padding: 8px 18px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+
+
+#menu li a{
+    display: block;
+    float: left;
     
 }
+
+#menu a{
+    display: none;
+}
+
