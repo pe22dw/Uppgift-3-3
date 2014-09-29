@@ -16,6 +16,11 @@
     background-size: 100%;
     background-position: bottom;
     background-repeat: no-repeat;
+    text-align: right;
+    color: white;
+    font-family: Verdana;
+    font-size: 10px;
+    font-style: italic;
 }
 
 #content{
@@ -24,13 +29,28 @@
 }
 
 #maincontent{
-    width: 360px;
+    width: 380px;
     height: 400px;
     float: left;
 }
+    #maincontent h1{
+        font-family: Times;
+        font-size: 30px;
+        font-weight: normal;
+        color: #797066;
+        padding-left: 10px;
+    }
+    #maincontent img{
+        float: left;
+        padding-left: 10px;
+        padding-right: 5px;
+    }
+    #maincontent p{
+        padding-left: 10px;
+    }
 
 #subcontent{
-    width: 240px;
+    width: 220px;
     height: 400px;
     float: right;
 }
@@ -43,33 +63,37 @@
 
 #menu{
     width: 600px;
-    height: 40px;
+    height: 36px;
     background-color: #51473d ;
 }
-#menu ul{
-    margin: 0;
-    padding: 5px 10px 0;
-    list-style: none;
-}
+    #menu ul{
+        margin: 0;
+        padding: 5px 10px 0;
+        list-style: none;
+        font-family: Verdana;
+        font-size: 12px;
+    }
 
-#menu li{
-    float: left;
-    background-color: #797066;
-    margin: 0;
-    padding: 8px 18px;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-}
+    #menu li{
+        float: left;
+        background-color: #797066;
+        margin: 0;
+        padding: 8px 18px;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+    }
 
+        #menu li a{
+            display: block;
+            float: left;
+            text-decoration: none;
+            color: #eae7d2;
+            text-transform: capitalize; 
+            letter-spacing: 1px;
+            
+        }
 
-
-#menu li a{
-    display: block;
-    float: left;
-    
-}
-
-#menu a{
-    display: none;
-}
+    #menu a{
+        display: none;
+    }
 
