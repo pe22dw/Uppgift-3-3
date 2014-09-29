@@ -1,1 +1,16 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+
+
+#container{
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #eae7d2;
+}
+
+#topbar{
+    width: 600px;
+    height: 220px;
+    background-image: url(pics/coffey.jpg);
+    
+}
