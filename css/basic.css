@@ -21,6 +21,7 @@
     font-family: Verdana;
     font-size: 10px;
     font-style: italic;
+    line-height: 20px;
 }
 
 #content{
@@ -29,7 +30,7 @@
 }
 
 #maincontent{
-    width: 369px;
+    width: 366px;
     height: 345px;
     float: left;
 }
@@ -52,53 +53,53 @@
         font-size: 13px;
         line-height: 20px;
         color: #797066;
-        padding-right: 10px;
+        padding-right: 9px;
     }
 
 #subcontent{
-    width: 230px;
+    width: 233px;
     height: 345px;
     float: right;
     border-left: dashed thin #c0c0c0;
 }
-#subcontent h1{
-    font-family: Times;
-    font-size: 18px;
-    font-weight: normal;
-    color: #51473d;
-    padding-left: 10px;
-    padding-top: 15px;
-    margin-bottom: 10px;
-}
-#subcontent p{
-    font-family: Verdana;
-    padding-left: 10px;
-    padding-top: 10px;
-    font-size: 10px;
-    line-height: 20px;
-    color: #797066;
-    padding-right: 10px;
-}
-#subcontent h2{
-    font-family: Times;
-    padding-left: 10px;
-    padding-top: 20px;
-    margin-bottom: 0px;
-    font-size: 14px;
-    font-weight: normal;
-    color: #51473d;
-}
-#subcontent ul{
-    list-style: none;
-    padding-left: 10px;
-    margin-top: 0px;
-}
-#subcontent a{
-    font-family: Verdana;
-    font-size: 13px;
-    text-decoration: underline;
-    color: #51473d;
-}
+    #subcontent h1{
+        font-family: Times;
+        font-size: 18px;
+        font-weight: normal;
+        color: #51473d;
+        padding-left: 10px;
+        padding-top: 15px;
+        margin-bottom: 10px;
+    }
+    #subcontent p{
+        font-family: Verdana;
+        padding-left: 10px;
+        padding-top: 10px;
+        font-size: 10px;
+        line-height: 20px;
+        color: #797066;
+        padding-right: 10px;
+    }
+    #subcontent h2{
+        font-family: Times;
+        padding-left: 10px;
+        padding-top: 20px;
+        margin-bottom: 0px;
+        font-size: 14px;
+        font-weight: normal;
+        color: #51473d;
+    }
+    #subcontent ul{
+        list-style: none;
+        padding-left: 10px;
+        margin-top: 0px;
+    }
+    #subcontent a{
+        font-family: Verdana;
+        font-size: 13px;
+        text-decoration: underline;
+        color: #51473d;
+    }
 
 #bottomcontent{
     width: 600px;
@@ -130,7 +131,7 @@
         background-color: #797066;
         margin: 0;
         padding: 8px 18px;
-        border-left: thin solid black;
+        border-left: thin solid #51473d;
     }
         #menu li a{
             display: block;
