@@ -79,10 +79,8 @@
         background-color: #797066;
         margin: 0;
         padding: 8px 18px;
-        border-left: 1px solid black;
-        border-right: 1px solid black;
+        border-left: thin solid black;
     }
-
         #menu li a{
             display: block;
             float: left;
@@ -90,10 +88,15 @@
             color: #eae7d2;
             text-transform: capitalize; 
             letter-spacing: 1px;
-            
         }
-
     #menu a{
         display: none;
     }
 
+    #menu .active{
+        background-color: #eae7d2;
+    }
+        
+        #menu .active a{
+            color: #888076;
+        }
