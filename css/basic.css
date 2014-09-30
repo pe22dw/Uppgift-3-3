@@ -3,7 +3,7 @@
 
 #container{
     width: 600px;
-    height: 700px;
+    height: 640px;
     margin: 0 auto;
     background-color: #eae7d2;
 }
@@ -30,7 +30,7 @@
 
 #maincontent{
     width: 369px;
-    height: 370px;
+    height: 345px;
     float: left;
 }
     #maincontent h1{
@@ -39,6 +39,7 @@
         font-weight: normal;
         color: #797066;
         padding-left: 10px;
+        margin-bottom: 10px;
     }
     #maincontent img{
         float: left;
@@ -48,14 +49,15 @@
     #maincontent p{
         font-family: Verdana;
         padding-left: 10px;
-        font-size: 12px;
+        font-size: 13px;
         line-height: 20px;
         color: #797066;
+        padding-right: 10px;
     }
 
 #subcontent{
     width: 230px;
-    height: 370px;
+    height: 345px;
     float: right;
     border-left: dashed thin #c0c0c0;
 }
@@ -66,6 +68,7 @@
     color: #51473d;
     padding-left: 10px;
     padding-top: 15px;
+    margin-bottom: 10px;
 }
 #subcontent p{
     font-family: Verdana;
@@ -74,17 +77,21 @@
     font-size: 10px;
     line-height: 20px;
     color: #797066;
+    padding-right: 10px;
 }
 #subcontent h2{
     font-family: Times;
     padding-left: 10px;
-    padding-top: 15px;
+    padding-top: 20px;
+    margin-bottom: 0px;
     font-size: 14px;
     font-weight: normal;
+    color: #51473d;
 }
 #subcontent ul{
     list-style: none;
     padding-left: 10px;
+    margin-top: 0px;
 }
 #subcontent a{
     font-family: Verdana;
@@ -95,14 +102,14 @@
 
 #bottomcontent{
     width: 600px;
-    height: 25px;
+    height: 28px;
     clear: both;
     font-family: Verdana;
     font-size: 10px;
     font-style: italic;
-    padding-top: 10px;
     padding-left: 10px;
-    border: 1px solid black;
+    color: #797066;
+    padding-top: 12px;
 }
 
 #menu{
