@@ -3,7 +3,7 @@
 
 #container{
     width: 600px;
-    height: 640px;
+    height: 700px;
     margin: 0 auto;
     background-color: #eae7d2;
 }
@@ -25,12 +25,12 @@
 
 #content{
     width: 600px;
-    height: 450px;
+    height: 400px;
 }
 
 #maincontent{
-    width: 380px;
-    height: 400px;
+    width: 369px;
+    height: 370px;
     float: left;
 }
     #maincontent h1{
@@ -54,9 +54,10 @@
     }
 
 #subcontent{
-    width: 220px;
-    height: 400px;
+    width: 230px;
+    height: 370px;
     float: right;
+    border-left: dashed thin #c0c0c0;
 }
 #subcontent h1{
     font-family: Times;
@@ -74,11 +75,34 @@
     line-height: 20px;
     color: #797066;
 }
+#subcontent h2{
+    font-family: Times;
+    padding-left: 10px;
+    padding-top: 15px;
+    font-size: 14px;
+    font-weight: normal;
+}
+#subcontent ul{
+    list-style: none;
+    padding-left: 10px;
+}
+#subcontent a{
+    font-family: Verdana;
+    font-size: 13px;
+    text-decoration: underline;
+    color: #51473d;
+}
 
 #bottomcontent{
     width: 600px;
-    height: 50px;
+    height: 25px;
     clear: both;
+    font-family: Verdana;
+    font-size: 10px;
+    font-style: italic;
+    padding-top: 10px;
+    padding-left: 10px;
+    border: 1px solid black;
 }
 
 #menu{
